@@ -8,6 +8,7 @@ import {SecurityOutlined} from "@mui/icons-material";
 import {ReactElement, JSXElementConstructor, ReactNode, ReactPortal, useState, useEffect} from "react";
 import TeamDetails from "./details";
 import {Link} from "react-router-dom";
+import React from "react";
 
 export const mockData = [
     {
@@ -218,7 +219,7 @@ const Issues = () => {
     return (
         <Box m="20px">
 
-                <Header title={"Team"} subtitle={"Welcome to the Team Page"}/>
+            <Header title={"Team"} subtitle={"Welcome to the Team Page"}/>
             <Box
                 m="40px 0 0 0"
                 height="50vh"

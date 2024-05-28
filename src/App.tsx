@@ -10,6 +10,7 @@ import Topbar from "./scenes/global/Topbar";
 import Dashboard from "./scenes/dashboard";
 import Sidebar from "./scenes/global/Sidebar";
 import Issues from "./scenes/issues";
+import IssuesBySummary from "./scenes/issuesBySummary";
 import TeamDetails from "./scenes/issues/details";
 
 
@@ -43,6 +44,7 @@ function App() {
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/issues" element={<Issues />} />
                         <Route path="/issues/:id" element={<TeamDetails />} />
+                        <Route path="/issuesBySummary" element={<IssuesBySummary />} />
                     </Routes>
                 </main>
             </div>
